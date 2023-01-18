@@ -1,7 +1,6 @@
 from flask_bootstrap import Bootstrap
 from flask import Flask,render_template
-import json
-import pymysql
+
 
 app = Flask(__name__)
 #Connection กับ Database 
